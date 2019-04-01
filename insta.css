@@ -1,0 +1,160 @@
+.navbar {
+    display: flex;
+    height: 75px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(131, 128, 128);
+
+}
+
+.logopic {
+    width: 116px;
+    height: 40px;
+}
+.searchbox {
+    font-size: 15px;
+    width : 200px;
+    height : 20px;
+    border : 2px solid gray;
+    opacity: 0.5;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.icon {
+    font-size: 25px;
+}
+
+.profile {
+    display: flex;
+    /* margin-top: 40px; */
+    justify-content: space-evenly;
+    margin : 40px 10%;
+    
+    /* margin: 0 auto */
+}
+
+
+.propic {
+    height :200px;
+    width : 200px;
+
+}
+
+.status { 
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* width:fit-content 알아서 글 쓴 것에 맞춰서 좌우 정렬 */
+.change {
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+    border :2px solid rgb(163, 162, 162);
+    padding : 10px;
+    
+    border-radius: 5px;
+
+}
+
+.number {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;;
+  
+    
+}
+
+.univ {
+    border-radius: 100%;
+    width: 150px;
+    height:150px;
+}
+
+.story {
+    display: flex;
+    width :auto;
+    height : 120px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.f_story {
+    padding-left: 50px;
+
+}
+
+.str1 {
+    border-radius: 100%;
+    width:70px;
+    height: 70px;
+    
+}
+
+.LA {
+    text-align: center;
+
+}
+
+.s_story {
+    padding-left: 50px;
+}
+
+
+.str2 {
+    border-radius: 100%;
+    width:70px;
+    height: 70px;
+}
+
+.sp {
+    text-align: center;
+
+}
+
+.menu{
+    display: flex;
+    text-align:center;
+    justify-content: space-evenly;
+    margin: 0 330px 20px 330px;
+    border-top : 2px solid rgb(216, 214, 214);
+}
+
+.posts{
+    border-top : 2px solid gray;
+}
+
+.far fa-th{
+    width: 200px;
+}
+
+.far fa-tags{
+    width: 200px;
+}
+
+.pics{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lion{
+    border: 2px solid rgb(172, 170, 170);
+    width: 250px;
+}
